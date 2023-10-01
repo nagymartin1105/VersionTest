@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jelszó ellenőrzés</title>
+</head>
+<body>
+    <h1>Jelszó ellenőrzés</h1>
+    <div>
+        <form action="">
+            <h5>Ide irja be a jelszót:</h5>
+            <input type="password" id="jelszo">
+            <h5>Ide irja be még egyszer a jelszót:</h5>
+            <input type="password" id="jelszomegegyszer">
+            <br>
+            <input type="button" value="Ellenőrzés" onclick="ellenorzes()" id="gomb">
+            <br>
+            <h5 id="allapot1">A jelszavak nem egyezenek!</h5>
+            <h5 id="allapot2">A jelszavak egyeznek!</h5>
+            <script src="script.js"></script>
+        </form>
+    </div>
+</body>
+</html>
